@@ -110,6 +110,10 @@ export type SectionFaqProps = {
   extraQuestion: Question
 }
 
+export type FooterProps = {
+  text: string
+}
+
 export type LandingPageProps = {
   logo: Image
   header: HeaderProps
@@ -122,4 +126,5 @@ export type LandingPageProps = {
   sectionAboutUs: SectionAboutUsProps
   sectionReviews: SectionReviewsProp
   sectionFaq: SectionFaqProps
+  footer: FooterProps
 }
